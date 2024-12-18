@@ -1,15 +1,18 @@
-// dbConnections.js
 const mongoose = require("mongoose");
 
-exports.dbConnection = (URI) => {
+exports.dbConnection = async (URI) => {
   try {
-    mongoose.connect(URI).then((data) => {
-      console.log(
-        "Database connected successfully to host",
-        data.connection.host
-      );
+    // Use async/await to handle the connection
+    const data = await mongoose.connect(URI, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
     });
-  } catch (e) {
-    console.log(e.message);
+    console.log(
+      "Database connected successfully to host:",
+      data.connection.host
+    );
+  } catch (error) {
+    console.error("Database connection failed:", error.message);
+    process.exit(1); // Exit the process with a failure code
   }
 };
