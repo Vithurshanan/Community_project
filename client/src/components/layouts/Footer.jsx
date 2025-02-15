@@ -60,12 +60,12 @@ const Footer = () => {
         <div className="space-y-4">
           <div className="">
             <p className="lg:text-justify">
-              Mysore International School # 92/1-5, HD Kote Road, Rayanakere Post, SH 33, Karnataka 570008
+            Mathurata Maha Vidyalaya, <br /> Mathurata, <br />Nuwara Eliya, SriLanka
             </p>
             <Link
               className="hover:ml-2 transition-all duration-200"
               to={
-                "https://www.google.com/maps/place/Mount+Litera+Zee+School/@12.2293831,76.5867438,17z/data=!3m1!4b1!4m6!3m5!1s0x3baf644f7358cc0d:0xe4fb32672e467b68!8m2!3d12.2293831!4d76.5867438!16s%2Fg%2F1yfh_kjjj?entry=ttu"
+                "https://maps.app.goo.gl/G2Gj1hmdSZ8hVjhk6"
               }
             >
               Direction &gt;
