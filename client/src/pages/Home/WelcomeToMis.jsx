@@ -50,22 +50,15 @@ const WelcomeToMIS = () => {
             viewport={{ once: true }}
             className="col-span-1 pb-5"
           >
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-title">
-              Welcome to <span className="font-subtext">MIS</span>
+            <p className='text-xl md:text-3xl  font-title'>welcome,</p>
+            <h1 className="text-3xl md:text-5xl lg:text-6xl">
+              <span className="font-subtext">Mathurata M. V.</span>
             </h1>
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-serif mt-[-8px]">
-              Empower. Excel. Educate
-            </h2>
           </motion.div>
           <p className="text-justify font-sans tracking-wide font-normal mb-3">
-            Welcome to Mysore International School, a place where every
-            student's journey is crafted with care and purpose. Here, education
-            goes beyond textbooks, shaping young minds into confident, curious
-            learners. Our vibrant community of educators and students fosters an
-            environment of collaboration and growth. As you embark on this
-            educational adventure with us, you'll discover not just a school but
-            a supportive family, dedicated to unlocking the full potential of
-            each individual.
+          Welcome to Mathurata Maha Vidyalaya, a place where every student's journey is crafted with care and purpose. Here, education goes beyond textbooks, shaping young minds into confident, curious learners. Our vibrant community of educators and students fosters an environment of collaboration and growth. As you embark on this educational adventure with us, you'll discover not just a school but a supportive family, dedicated to unlocking the full potential of each individual.  
+
+Located in the picturesque town of Mathurata, Nuwara Eliya, Sri Lanka, Mathurata Maha Vidyalaya is a school that caters to students from Grade 1 to advanced levels. We are committed to providing a nurturing and inspiring environment where every child can thrive academically, socially, and personally. Join us as we build a foundation for lifelong learning and success.
           </p>
           <motion.button
             initial={{ opacity: 0, y: 100 }}
