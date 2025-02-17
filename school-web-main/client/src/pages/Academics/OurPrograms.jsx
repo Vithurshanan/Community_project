@@ -100,7 +100,7 @@ const OurPrograms = () => {
           transition={{ duration: 1, delay: 1 }}
           viewport={{ once: true }} className="text-center w-[50%] max-lg:w-[80%] text-white font-sans"
         >
-          At Mysore International School, our mission is to offer affordable,
+          At Mathurata Maha Vidyalaya, our mission is to offer affordable,
           high-quality education and childcare services across all childhood
           stages. Committed to fostering growth and success, we ensure every
           child thrives in a nurturing environment.

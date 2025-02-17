@@ -25,10 +25,10 @@ const OurTeam = () => {
   return (
     <div className="mt-[4rem] sm:mt-0">
     <Helmet>
-      <title>Our Team | Mysore International School</title>
+      <title>Our Team | Mathurata Maha Vidyalaya</title>
       <meta
         name="description"
-        content="Meet the dedicated educators and staff at Mysore International School, committed to fostering a nurturing learning environment for every student."
+        content="Meet the dedicated educators and staff at Mathurata Maha Vidyalaya, committed to fostering a nurturing learning environment for every student."
       />
       <link rel="cannonical" href="/OurTeam" />
     </Helmet>
@@ -36,7 +36,7 @@ const OurTeam = () => {
       <div className="bg-white">
         <Hero
           image={image}
-          description={`Explore the dynamic and dedicated team at Mysore International School. Our educators and staff are committed to fostering a nurturing learning environment, where every student can thrive. With a passion for education, our team brings a wealth of experience and expertise to inspire and guide students on their educational journey. Get to know the individuals who make up our vibrant and collaborative community.`}
+          description={`Explore the dynamic and dedicated team at Mathurata Maha Vidyalaya. Our educators and staff are committed to fostering a nurturing learning environment, where every student can thrive. With a passion for education, our team brings a wealth of experience and expertise to inspire and guide students on their educational journey. Get to know the individuals who make up our vibrant and collaborative community.`}
           text={`Our Team`}
           descriptionClassName="font-serif"
         />

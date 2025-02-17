@@ -22,7 +22,7 @@ const VirtualTour = () => {
           </h3>
         </div>
         <p className="text-left md:text-justify">
-          Unlock the doors to Mysore International School by scanning the QR
+          Unlock the doors to Mathurata Maha Vidyalaya by scanning the QR
           code on the left. Immerse yourself in a virtual stroll around our
           campus, exploring the architecture, surroundings, and the unique charm
           of our school from the outside. Get a sneak peek into the world of

@@ -119,7 +119,7 @@ const TransportPage = () => {
       Our transportation services with tracking facilities are designed to provide the utmost safety and convenience to both students and their families. We understand that trust and peace of mind are essential when it comes to your child's transportation, and our commitment to these values is reflected in our advanced tracking technology.
     </p> */}
     <p className="text-gray-600 text-lg mb-10 ">
-    Join us in ensuring your child's safe and secure journey to and from Mysore International School.
+    Join us in ensuring your child's safe and secure journey to and from Mathurata Maha Vidyalaya.
     </p>
     <a
       href="#"

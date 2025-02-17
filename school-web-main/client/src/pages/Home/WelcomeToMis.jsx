@@ -58,7 +58,7 @@ const WelcomeToMIS = () => {
             </h2>
           </motion.div>
           <p className="text-justify font-sans tracking-wide font-normal mb-3">
-            Welcome to Mysore International School, a place where every
+            Welcome to Mathurata Maha Vidyalaya, a place where every
             student's journey is crafted with care and purpose. Here, education
             goes beyond textbooks, shaping young minds into confident, curious
             learners. Our vibrant community of educators and students fosters an

@@ -14,10 +14,10 @@ const ContactUs = () => {
   return (
   <div className='mt-[4rem] sm:mt-0'>
     <Helmet>
-  <title>Contact Us | Mysore International School</title>
+  <title>Contact Us | Mathurata Maha Vidyalaya</title>
   <meta
     name="description"
-    content="Get in touch with Mysore International School. Find our contact information, including address, phone numbers, and email for inquiries."
+    content="Get in touch with Mathurata Maha Vidyalaya. Find our contact information, including address, phone numbers, and email for inquiries."
   />
     <link rel="cannonical" href="/ContactUs" />
 
@@ -25,7 +25,7 @@ const ContactUs = () => {
       <Hero
         text={`Contact Us`}
         image={image}
-        description={`Welcome to the Contact Us page of Mysore International School. At MIS, we value communication and are here to assist you. Whether you have inquiries about admissions, want to learn more about our programs, or have general questions, our team is ready to help. Feel free to reach out through the provided contact details, and we look forward to connecting with you.`}
+        description={`Welcome to the Contact Us page of Mathurata Maha Vidyalaya. At MIS, we value communication and are here to assist you. Whether you have inquiries about admissions, want to learn more about our programs, or have general questions, our team is ready to help. Feel free to reach out through the provided contact details, and we look forward to connecting with you.`}
       />
       <BreadCrumb Currentlink={'contact-us'} Currentpage={'Contact Us'} />
       <Address />
