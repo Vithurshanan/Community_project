@@ -29,7 +29,7 @@ html {
 }
 
 .active {
-  border-bottom: 3px solid purple;
+  border-bottom: 3px solid #611706;
 }
 
 @media (min-width: 800px) {
