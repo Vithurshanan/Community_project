@@ -1,4 +1,4 @@
-# Mysore International School
+# Mathurata Maha Vidyalaya
 
 ![Website Screenshot](./client/src/assets/Images/WebsiteImages/new%20(1).png)
 ![Website Screenshot](./client/src/assets/Images/WebsiteImages/new%20(2).png)
@@ -35,7 +35,7 @@
 ## Overview
 
 
-Welcome to the Mysore International School's website, a comprehensive full-stack MERN (MongoDB, Express, React, Node.js) application. This freelancing project provides a robust platform for MIS, featuring extensive information about the school and staff. Key functionalities include a detailed admin panel for managing school operations, events, awards, admissions, and news. The site integrates Razorpay for secure fee payments, offers forms for parent and student queries, and maintains dynamic content updates, ensuring a seamless and informative experience for all users.
+Welcome to the Mathurata Maha Vidyalaya's website, a comprehensive full-stack MERN (MongoDB, Express, React, Node.js) application. This freelancing project provides a robust platform for MIS, featuring extensive information about the school and staff. Key functionalities include a detailed admin panel for managing school operations, events, awards, admissions, and news. The site integrates Razorpay for secure fee payments, offers forms for parent and student queries, and maintains dynamic content updates, ensuring a seamless and informative experience for all users.
 
 ## Features
 

@@ -45,7 +45,7 @@ const JoinOurFramework = () => {
             viewport={{ once: true }}
             className="text-center text-2xl font-subtext tracking-wider text-white font-bold"
           >
-            Programme Framework at Mysore International School
+            Programme Framework at Mathurata Maha Vidyalaya
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: -50 }}

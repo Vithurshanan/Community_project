@@ -24,7 +24,7 @@ const Art = () => {
             Art and Design Program
             </h1>
             <p className="text-sm md:text-lg max-w-3xl text-secondary font-description pb-6 tracking-wide">
-            Mysore International School's Art and Design Department is dedicated to nurturing creativity and artistry among students, providing them with a platform to explore their artistic passions. 
+            Mathurata Maha Vidyalaya's Art and Design Department is dedicated to nurturing creativity and artistry among students, providing them with a platform to explore their artistic passions. 
             </p>
             <a
               href="#features"
@@ -70,7 +70,7 @@ const Art = () => {
                 Visual Arts Program for Holistic Development
                 </h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                The Visual Arts Program at Mysore International School begins from Kindergarten and offers a comprehensive approach to learning art. Students engage in art-making activities, study art history, participate in critiques, and reflect on their creative processes. 
+                The Visual Arts Program at Mathurata Maha Vidyalaya begins from Kindergarten and offers a comprehensive approach to learning art. Students engage in art-making activities, study art history, participate in critiques, and reflect on their creative processes. 
                 </p>
               </div>
             </li>
@@ -118,7 +118,7 @@ const Art = () => {
       Our transportation services with tracking facilities are designed to provide the utmost safety and convenience to both students and their families. We understand that trust and peace of mind are essential when it comes to your child's transportation, and our commitment to these values is reflected in our advanced tracking technology.
     </p> */}
     <p className="text-secondary tracking-wider text-lg font-semibold mb-10">
-    Join us at Mysore International School and unleash your artistic potential. Enroll now to be part of a vibrant artistic community that celebrates creativity, innovation, and artistic excellence!
+    Join us at Mathurata Maha Vidyalaya and unleash your artistic potential. Enroll now to be part of a vibrant artistic community that celebrates creativity, innovation, and artistic excellence!
     </p>
     <a
       href="#"

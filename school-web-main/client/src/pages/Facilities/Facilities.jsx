@@ -13,10 +13,10 @@ const Facilities = () => {
   return (
     <div className="mt-[4rem] sm:mt-0">
     <Helmet>
-  <title>Facilities | Mysore International School</title>
+  <title>Facilities | Mathurata Maha Vidyalaya</title>
   <meta
     name="description"
-    content="Discover Mysore International School's outstanding facilities designed for academic excellence, including modern classrooms, labs, library, and sports facilities."
+    content="Discover Mathurata Maha Vidyalaya's outstanding facilities designed for academic excellence, including modern classrooms, labs, library, and sports facilities."
   />
   <link rel="cannonical" href="/Facilites" />
 </Helmet>
@@ -24,7 +24,7 @@ const Facilities = () => {
       <Hero
         image={image}
         text={`Facilities`}
-        description={`Discover the outstanding facilities at Mysore International School designed to enhance the overall learning experience. Our state-of-the-art infrastructure includes modern classrooms, well-equipped laboratories, a library, sports facilities, and more. We are committed to providing a conducive environment that supports academic excellence, creativity, and holistic development. Explore how our facilities contribute to fostering a vibrant and engaging educational journey for our students.`}
+        description={`Discover the outstanding facilities at Mathurata Maha Vidyalaya designed to enhance the overall learning experience. Our state-of-the-art infrastructure includes modern classrooms, well-equipped laboratories, a library, sports facilities, and more. We are committed to providing a conducive environment that supports academic excellence, creativity, and holistic development. Explore how our facilities contribute to fostering a vibrant and engaging educational journey for our students.`}
       />
       <BreadCrumb
         Currentlink={"facilities"}

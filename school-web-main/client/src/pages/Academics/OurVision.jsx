@@ -20,7 +20,7 @@ const OurVision = () => {
               Our Vision
             </h1>
             <h2 className="text-[15px] md:text-[17px] lg:text-xl font-semibold text-left md:text-justify tracking-wider font-subtext">
-              At Mysore International School, we pledge to continuously ignite an intrinsic drive in our
+              At Mathurata Maha Vidyalaya, we pledge to continuously ignite an intrinsic drive in our
               students, inspiring them to relentlessly pursue their loftiest aspirations, regardless of their
               chosen paths.
             </h2>
@@ -65,7 +65,7 @@ const OurVision = () => {
                 <div className="mr-2 w-6 h-6">
                   <FaHandPointRight className="text-l mt-1" />
                 </div>
-                Our distinctive vision shapes a future where Mysore International School stands as a beacon of
+                Our distinctive vision shapes a future where Mathurata Maha Vidyalaya stands as a beacon of
                 holistic education, propelling students towards excellence and global citizenship.
               </li>
             </ul>

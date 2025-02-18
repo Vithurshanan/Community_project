@@ -24,7 +24,7 @@ const ScoutsAndGuide = () => {
             Scouts and Guides at MIS
             </h1>
             <p className="text-sm md:text-lg max-w-3xl text-secondary font-description pb-6 tracking-wide">
-            The Scouts and Guides program at Mysore International School plays a crucial role in nurturing confidence, self-esteem, and essential life skills among our students. 
+            The Scouts and Guides program at Mathurata Maha Vidyalaya plays a crucial role in nurturing confidence, self-esteem, and essential life skills among our students. 
             </p>
             <a
               href="#features"

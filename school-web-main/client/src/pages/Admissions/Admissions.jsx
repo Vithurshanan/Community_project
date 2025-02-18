@@ -21,17 +21,17 @@ const Admissions = () => {
   return (
     <div className="h-[10vh] mt-[4rem]  ">
       <Helmet>
-  <title>Admissions | Mysore International School</title>
+  <title>Admissions | Mathurata Maha Vidyalaya</title>
   <meta
     name="description"
-    content="Explore the admissions process at Mysore International School. Find details on eligibility, application procedures, and how to enroll your child."
+    content="Explore the admissions process at Mathurata Maha Vidyalaya. Find details on eligibility, application procedures, and how to enroll your child."
   />
 </Helmet>
 
       <Hero 
         text={"ADMISSION INFO"}
         image={image}
-        description={`A warm welcome to the Mysore international School! We are excited to extend an invitation
+        description={`A warm welcome to the Mathurata Maha Vidyalaya! We are excited to extend an invitation
         to students to join India's top-rated international school and embark on an extraordinary and
         memorable educational journey. Our commitment to excellence is underscored by our
         impressive ranking in the education world. The dedicated admission team at MIS is here to
