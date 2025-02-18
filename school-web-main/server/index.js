@@ -1,99 +1,86 @@
-const path = require('path');
+const path = require("path");
 const express = require("express");
-const app = express();
 const bodyParser = require("body-parser");
 const cookie = require("cookie-parser");
 const cors = require("cors");
-
-const cloudinary=require("cloudinary")
-// const Razorpay=require("razorpay")
-const corsOptions = {
-  origin: "http://localhost:5173",
-  credentials:true
-};
-
-app.get('/sitemap.xml', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'sitemap.xml'));
-});
-
+const cloudinary = require("cloudinary");
 const fileUpload = require("express-fileupload");
 const dotenv = require("dotenv");
-const Enrollment = require("./routes/Enrollment");
-const UserRoute = require("./routes/UserRoute");
-const AdminRoute = require("./routes/adminRoutes");
-// const PaymentRoute = require("./routes/paymentRoute");
 const { dbConnection } = require("./config/dbConnections");
-const error = require("./middlewares/error");
-const { getAnalyticsData } = require('./controllers/AnalyticsService');
+const errorMiddleware = require("./middlewares/error");
+const UserRoute = require("./routes/UserRoute");
+const EnrollmentRoute = require("./routes/Enrollment");
+const AdminRoute = require("./routes/adminRoutes");
+
 
 dotenv.config();
 
-// Add middleware
-// Body parser middleware
-app.use(
-  bodyParser.urlencoded({
-    extended: true,
-  })
-);
+const app = express();
 
-// File upload middleware
+
+const corsOptions = {
+  origin: "http://localhost:5173",  
+  credentials: true, 
+};
+
+// Middleware
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(fileUpload());
-app.use(express.json({
-  limit: '50mb'
-}));
+app.use(express.json({ limit: "50mb" }));
 app.use(cookie());
 app.use(cors(corsOptions));
 
-app.use("/api", UserRoute);
-app.use("/api", Enrollment);
-app.use("/api/admin", AdminRoute);
-// app.use("/api/payment", PaymentRoute);
-app.use(error);
-
+// Cloudinary Configuration
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_NAME,
   api_key: process.env.CLOUDINARY_API_KEY,
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-{/**
-  app.get("/api/getKey",(req,res)=>{
+// Root route handler
+app.get("/", (req, res) => {
+  res.send("Welcome to the API!");
+});
 
-  res.status(200).json({
-    key:process.env.RAZORPAY_API_KEY
-  })
+// Serve static files (e.g., sitemap.xml)
+app.get("/sitemap.xml", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "sitemap.xml"));
+});
 
-})
-  */}
+// API routes
+app.use("/api", UserRoute);
+app.use("/api", EnrollmentRoute);
+app.use("/api/admin", AdminRoute);
+
+// Logout Route (Example of async logout logic)
+app.post("/api/logout", async (req, res, next) => {
+  try {
+    res.clearCookie("authToken"); // Adjust this according to your token name
+    res.status(200).json({ message: "Logged out successfully" });
+  } catch (error) {
+    next(error); // Pass to errorMiddleware
+  }
+});
+
+// Error handling middleware (must be last)
+app.use(errorMiddleware);
 
 // Database connection
-dbConnection(process.env.URI);
-
+dbConnection(process.env.MONGO_URI);
 
 // Start the server
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 4000;
 const server = app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
-
-// Handle unhandled rejections
-process.on("unhandledRejection", (promise, e, reason) => {
-  console.error("Unhandled Rejection at:", promise, "reason:", reason);
-  console.log(`Shutting down server due to unhandledRejection`);
-  console.log(`${e.message}`);
-  server.close(() => {
-    process.exit(1);
-  });
+// Handle unhandled promise rejections and uncaught exceptions
+process.on("unhandledRejection", (promise, reason) => {
+  console.error("Unhandled Rejection:", reason);
+  server.close(() => process.exit(1));
 });
 
-// Handle uncaught exceptions
-process.on("uncaughtException", (e) => {
-  console.log(`Error : ${e.message}`);
-  console.log(`Shutting down server due to uncaughtException`);
-  server.close(() => {
-    process.exit(1);
-  });
-
+process.on("uncaughtException", (error) => {
+  console.error("Uncaught Exception:", error);
+  server.close(() => process.exit(1));
 });
-

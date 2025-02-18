@@ -24,6 +24,7 @@
     "ag-grid-react": "^31.3.2",
     "antd": "^5.20.0",
     "axios": "^1.6.8",
+    "caniuse-lite": "^1.0.30001689",
     "dotenv": "^16.4.5",
     "flowbite-react": "^0.7.2",
     "framer-motion": "^11.2.6",

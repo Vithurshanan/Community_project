@@ -7,6 +7,6 @@ dotenv.config(); // Load environment variables from .env file
 export default defineConfig({
   plugins: [react()],
   define: {
-    'process.env': process.env // Pass environment variables to the client code
+    '': process.env // Pass environment variables to the client code
   }
 });

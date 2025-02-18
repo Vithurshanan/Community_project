@@ -18,7 +18,7 @@ const Footer = () => {
     { title: "Admissions", to: "/admissions" },
     { title: "Academics", to: "/academics" },
     { title: "Parents Portal", to: "/parents-portal" },
-    { title: "Admin login", to: "/login" },  // Updated path to /login
+    { title: "Admin login", to: "/admin-login" },  // Updated path to /login
     { title: "Quick Links", to: "/FilesContainer" },
   ];
   const links2 = [
