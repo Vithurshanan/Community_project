@@ -1,0 +1,169 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "How are you",
+        "Good morning",
+        "Good afternoon",
+        "Ayubowan"
+      ],
+      "responses": [
+        "Hello! Welcome to Mathurata Maha Vidyalaya. How can I help you?",
+        "Ayubowan! I'm the school's virtual assistant. What can I do for you?",
+        "Hello! I'm here to help you with information about Mathurata Maha Vidyalaya."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How can I apply for admission",
+        "What is the admission process",
+        "I want to admit my child",
+        "Grade 1 admission",
+        "Grade 6 admission",
+        "New student registration",
+        "How to join the school"
+      ],
+      "responses": [
+        "For admissions to Mathurata Maha Vidyalaya: 1. Fill the application form 2. Submit required documents (Birth certificate, Residence proof) 3. Attend the interview. Would you like more details?",
+        "Our admission process involves: Application submission, document verification, and an interview. Please contact our office at [School Phone] for the application form."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What are the fees",
+        "How much is the tuition",
+        "Tell me about the fee structure",
+        "What's the school fees",
+        "Fee details"
+      ],
+      "responses": [
+        "Our fee structure varies by grade level. For detailed information, please visit our Fees page or contact our admissions office.",
+        "The school fees depend on the grade level. Would you like to know about a specific grade?"
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities do you have",
+        "Tell me about school facilities",
+        "Do you have sports facilities",
+        "Is there a library",
+        "Computer lab facilities",
+        "Science lab"
+      ],
+      "responses": [
+        "Mathurata Maha Vidyalaya offers: Modern Computer Lab, Well-equipped Science Labs, Library, Sports Ground, Indoor Sports Facilities, and Smart Classrooms. Which facility would you like to know more about?",
+        "Our school provides comprehensive facilities including Science Labs, Computer Labs, Library, Playground, and more. We focus on both academic and extracurricular development."
+      ]
+    },
+    {
+      "tag": "curriculum",
+      "patterns": [
+        "What curriculum do you follow",
+        "Tell me about the syllabus",
+        "Which subjects are taught",
+        "Education system",
+        "Medium of instruction",
+        "What languages are taught"
+      ],
+      "responses": [
+        "We follow the National Curriculum in Sinhala and English mediums. We offer subjects in Science, Mathematics, Languages (Sinhala, English, Tamil), Arts, and Commerce streams.",
+        "Our curriculum includes both academic subjects and practical skills development. We offer education from Grade 1 to A/L in Science, Arts, and Commerce streams."
+      ]
+    },
+    {
+      "tag": "achievements",
+      "patterns": [
+        "School achievements",
+        "Academic performance",
+        "Exam results",
+        "Sports achievements",
+        "Student accomplishments",
+        "School awards"
+      ],
+      "responses": [
+        "Mathurata Maha Vidyalaya has achieved excellent results in O/L and A/L examinations. Our students have won numerous awards in sports, arts, and academic competitions.",
+        "Our school maintains high academic standards with outstanding O/L and A/L results. We've also excelled in provincial and national level competitions."
+      ]
+    },
+    {
+      "tag": "extracurricular",
+      "patterns": [
+        "What are the extra activities",
+        "Sports activities",
+        "School clubs",
+        "After school activities",
+        "Cultural activities",
+        "School societies"
+      ],
+      "responses": [
+        "We offer various extracurricular activities including: Sports (Cricket, Athletics, Volleyball), Cultural Societies, Science Club, IT Club, Environmental Club, and Scouts/Guides.",
+        "Our extracurricular program includes Sports, Music, Dancing, Art, Scouts, Environmental Activities, and various subject-based societies."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact the school",
+        "School contact information",
+        "Phone number",
+        "Email address",
+        "School location",
+        "Address"
+      ],
+      "responses": [
+        "You can contact Mathurata Maha Vidyalaya at: Phone: [School Phone], Email: [School Email]. Our address is [School Address], Mathurata.",
+        "For inquiries, please contact our office: Phone: [School Phone] or visit us at [School Address], Mathurata."
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "What are the school timings",
+        "School hours",
+        "When does school start",
+        "When does school end",
+        "Office hours"
+      ],
+      "responses": [
+        "School hours are from 7:30 AM to 1:30 PM, Monday to Friday. The office is open from 7:30 AM to 3:30 PM on weekdays.",
+        "Our academic day runs from 7:30 AM to 1:30 PM. Extra activities are conducted from 1:30 PM to 3:30 PM on scheduled days."
+      ]
+    },
+    {
+      "tag": "uniform",
+      "patterns": [
+        "What is the school uniform",
+        "Uniform details",
+        "Where to buy uniform",
+        "School dress code"
+      ],
+      "responses": [
+        "Boys: White shirt and blue shorts/trousers. Girls: White dress with blue belt. The school badge is compulsory. Uniforms are available at [Uniform Shop Details].",
+        "Our school uniform consists of white and blue attire with the school badge. Proper shoes and socks are required. Contact the school office for uniform suppliers."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you",
+        "Goodbye",
+        "Thanks",
+        "Thank you",
+        "Goodbye"
+      ],
+      "responses": [
+        "Thank you for your interest in Mathurata Maha Vidyalaya. Have a great day!",
+        "Thank you for chatting. Feel free to contact us for more information about our school!",
+        "Goodbye! We hope to see you at Mathurata Maha Vidyalaya soon!"
+      ]
+    }
+  ]
+} 

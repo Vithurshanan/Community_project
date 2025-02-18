@@ -13,6 +13,7 @@ import AdminPayments from "./AdminPages/AdminPayments";
 import Statistics from "./AdminPages/Statistics";
 import CommonLayout from "./components/AdminpanelComponents/AdminLayouts/CommonLayout";
 import FilesContainer from "./components/layouts/Common/FilesContainer";
+import ChatBot from './components/ChatBot/ChatBot';
 
 const Home = React.lazy(() => import("./pages/Home/Home"));
 const Academics = React.lazy(() => import("./pages/Academics/Academics"));
@@ -111,6 +112,7 @@ const App = () => {
           <Route path="*" element={<NotFound/>} />
         </Routes>
       </Suspense>
+      <ChatBot />
     </Router>
   );
 };
