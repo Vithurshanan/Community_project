@@ -15,7 +15,7 @@ const ReasonToPursue = () => {
       icon: icon1,
       title: "Pinnacle of Achievement",
       description:
-        "Unlock academic distinction and holistic growth at Mathurata Maha Vidyalaya, where every student reaches new heights of success. Our tailored approach ensures that each student not only achieves success but also develops essential life skills, fostering a well-rounded and empowered individual.",
+        "Unlock academic distinction and holistic growth at Mysore International School, where every student reaches new heights of success. Our tailored approach ensures that each student not only achieves success but also develops essential life skills, fostering a well-rounded and empowered individual.",
     },
     {
       expanded: false,
@@ -23,7 +23,7 @@ const ReasonToPursue = () => {
       icon: icon2,
       title: "Unity in Leadership",
       description:
-        "Mathurata Maha Vidyalaya fosters unity in leadership, encouraging collaboration, resilience, and essential skills for a future of influence. Discover a unique educational ethos at Mathurata Maha Vidyalaya, where unity in leadership extends beyond classrooms. Our emphasis on collaboration and resilience equips students with the essential skills needed to navigate.",
+        "Mysore International School fosters unity in leadership, encouraging collaboration, resilience, and essential skills for a future of influence. Discover a unique educational ethos at Mysore International School, where unity in leadership extends beyond classrooms. Our emphasis on collaboration and resilience equips students with the essential skills needed to navigate.",
     },
     {
       expanded: false,
@@ -31,7 +31,7 @@ const ReasonToPursue = () => {
       icon: icon3,
       title: "Transformative Learning",
       description:
-        "Embark on a transformative education odyssey at Mathurata Maha Vidyalaya, where impactful learning shapes well-rounded, empowered individuals. Embark on an educational odyssey at Mathurata Maha Vidyalaya, where impactful learning shapes well-rounded, empowered individuals.",
+        "Embark on a transformative education odyssey at Mysore International School, where impactful learning shapes well-rounded, empowered individuals. Embark on an educational odyssey at Mysore International School, where impactful learning shapes well-rounded, empowered individuals.",
     },
     {
       expanded: false,
@@ -39,7 +39,7 @@ const ReasonToPursue = () => {
       icon: icon4,
       title: "Mastery in Education",
       description:
-        "Experience mastery in education at Mathurata Maha Vidyalaya, where devoted educators inspire academic excellence and guide students on a path of personal development. Our commitment is to provide more than just knowledge; we aim to empower students for a future of success and fulfillment.",
+        "Experience mastery in education at Mysore International School, where devoted educators inspire academic excellence and guide students on a path of personal development. Our commitment is to provide more than just knowledge; we aim to empower students for a future of success and fulfillment.",
     },
   ]);
 
@@ -70,7 +70,7 @@ const ReasonToPursue = () => {
           viewport={{ once: true }}
           className="uppercase font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
         >
-          Mathurata Maha Vidyalaya
+          Mysore International School
         </motion.h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">

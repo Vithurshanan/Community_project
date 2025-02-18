@@ -122,7 +122,7 @@ const CbseCurriculum = () => {
         </h3>
       </div>
       <p className="text-gray-600 mb-6 p-4 md:p-6">
-        At Mathurata Maha Vidyalaya, our curriculum will empower students to
+        At Mysore International School, our curriculum will empower students to
         develop a breadth of knowledge, critical skills, and a global
         perspective. The expertise of Cambridge books that are completely
         aligned with CBSE curriculum will enhance the classroom experience shared

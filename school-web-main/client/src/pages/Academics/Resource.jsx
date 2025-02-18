@@ -20,7 +20,7 @@ const Resource = () => {
     {
       question: "Book Info",
       answer:
-        "Explore the application process for admission to Mathurata Maha Vidyalaya on our Admissions page. Find all necessary forms and instructions to start your journey with us.",
+        "Explore the application process for admission to Mysore International School on our Admissions page. Find all necessary forms and instructions to start your journey with us.",
       file: File1,
     },
     {

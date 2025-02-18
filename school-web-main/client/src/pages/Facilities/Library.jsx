@@ -24,7 +24,7 @@ const Library = () => {
             Library Services 
             </h1>
             <p className="text-sm md:text-lg max-w-3xl lg:px-5 text-secondary font-description pb-6 tracking-wide">
-            The library at Mathurata Maha Vidyalaya is a cornerstone of knowledge and learning for our students. 
+            The library at Mysore International School is a cornerstone of knowledge and learning for our students. 
             </p>
             <a
               href="#features"
@@ -113,7 +113,7 @@ const Library = () => {
   <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     
     <p className="text-gray-600 text-lg mb-10 ">
-    Join us at Mathurata Maha Vidyalaya and immerse yourself in a world of knowledge, curiosity, and innovation through our vibrant library services. Unlock the doors to a brighter future filled with endless possibilities.
+    Join us at Mysore International School and immerse yourself in a world of knowledge, curiosity, and innovation through our vibrant library services. Unlock the doors to a brighter future filled with endless possibilities.
     </p>
     <a
       href="#"

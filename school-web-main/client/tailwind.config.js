@@ -11,13 +11,13 @@ export default {
     extend: {
       colors: {
         primary: "#D3D3D3",
-        secondary: "#611706", //
+        secondary: "#580B57",
         tertiary: "#FFFFFF",
-        ctcPrimary: "#611706", //
+        ctcPrimary: "#580B57",
         ctcSecondary: "#D3D3D3",
         textPrimary: "#ffffff",
-        textSecondary: "#611706", //
-        ctcPrimaryLight:"#91260c", //
+        textSecondary: "#580B57",
+        ctcPrimaryLight:"#8a0b88",
       },
 
       fontFamily: {

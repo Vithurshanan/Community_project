@@ -72,7 +72,7 @@ const Schedule = () => {
       <ToastContainer />
       <div className="flex-col mt-10 md:flex-row text-center py-10 bg-secondary text-white tracking-wide flex items-center px-2 justify-center gap-8 font-semibold shadow-2xl shadow-secondary ">
         <h4 className="text-[16px] sm:text-xl md:text-2xl lg:text-3xl">
-          Schedule a visit at Mathurata Maha Vidyalaya
+          Schedule a visit at Mysore International School
         </h4>
         <div className="hover:translate-x-4 transition-all ease-in-out duration-800">
           <button

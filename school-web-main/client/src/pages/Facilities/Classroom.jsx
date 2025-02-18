@@ -24,7 +24,7 @@ const Classroom = () => {
             Classroom Facilities
             </h1>
             <p className="text-sm md:text-lg max-w-3xl lg:px-5 text-secondary font-description pb-6 tracking-wide">
-            At Mathurata Maha Vidyalaya, we understand that learning goes beyond academics. Our classroom facilities are designed to create an environment conducive to holistic growth, critical thinking, and creativity among our students.
+            At Mysore International School, we understand that learning goes beyond academics. Our classroom facilities are designed to create an environment conducive to holistic growth, critical thinking, and creativity among our students.
             </p>
             <a
               href="#features"
@@ -40,7 +40,7 @@ const Classroom = () => {
       <div className="py-8 md:py-16 bg-gray-100" id="features">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl md:text-3xl font-bold font-title tracking-wide text-secondary mb-10 text-center">
-          Classroom Facilities at Mathurata Maha Vidyalaya
+          Classroom Facilities at Mysore International School
           </h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <li className="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer">
@@ -70,7 +70,7 @@ const Classroom = () => {
                 Hands-On Learning
                 </h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                At Mathurata Maha Vidyalaya, we strongly believe in the power of hands-on learning as a transformative educational approach. Our curriculum is designed to provide students with ample opportunities for practical, experiential learning that goes beyond traditional classroom instruction.
+                At Mysore International School, we strongly believe in the power of hands-on learning as a transformative educational approach. Our curriculum is designed to provide students with ample opportunities for practical, experiential learning that goes beyond traditional classroom instruction.
                 </p>
               </div>
             </li>
@@ -85,7 +85,7 @@ const Classroom = () => {
                 Interactive Learning
                 </h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                Smart classrooms at Mathurata Maha Vidyalaya are equipped with interactive whiteboards, Smart displays, and multimedia resources. These tools enable teachers to deliver engaging lessons that capture students' attention and encourage active participation.
+                Smart classrooms at Mysore International School are equipped with interactive whiteboards, Smart displays, and multimedia resources. These tools enable teachers to deliver engaging lessons that capture students' attention and encourage active participation.
                 </p>
               </div>
             </li>
@@ -100,7 +100,7 @@ const Classroom = () => {
                 Environmental Sustainability
                 </h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                Students have the opportunity to At Mathurata Maha Vidyalaya, we prioritize the holistic development of our students, which includes fostering an eco-friendly environment. Our classrooms are designed with sustainability in mind, incorporating eco-friendly practices and materials wherever possible.
+                Students have the opportunity to At Mysore International School, we prioritize the holistic development of our students, which includes fostering an eco-friendly environment. Our classrooms are designed with sustainability in mind, incorporating eco-friendly practices and materials wherever possible.
                 </p>
               </div>
             </li>
@@ -113,7 +113,7 @@ const Classroom = () => {
   <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     
     <p className="text-gray-600 text-lg mb-10 ">
-    By joining Mathurata Maha Vidyalaya, students not only excel academically but also develop essential life skills, leadership qualities, and a passion for lifelong learning. Join us in creating a dynamic and enriching learning environment for your child.
+    By joining Mysore International School, students not only excel academically but also develop essential life skills, leadership qualities, and a passion for lifelong learning. Join us in creating a dynamic and enriching learning environment for your child.
     </p>
     <a
       href="#"
