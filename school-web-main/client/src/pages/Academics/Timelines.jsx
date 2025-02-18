@@ -45,7 +45,7 @@ function Timelines() {
       <Timeline.Item>
         <Timeline.Point />
         <Timeline.Content className="w-[80%]">
-          <Timeline.Time className="font-title text-2xl font-semibold text-secondary tracking-wider"> 2024</Timeline.Time>
+          <Timeline.Time className="font-title text-2xl font-semibold text-secondary tracking-wider"> 202</Timeline.Time>
           <Timeline.Title >Phase - 04</Timeline.Title>
           <Timeline.Body>
            We underwent a significant transformation and rebranded our school from Mount Litera Zee School to Mathurata Maha Vidyalaya

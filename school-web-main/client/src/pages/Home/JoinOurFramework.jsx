@@ -47,7 +47,7 @@ const JoinOurFramework = () => {
           >
             Programme Framework at Mathurata Maha Vidyalaya
           </motion.h2>
-          <motion.p
+          {/* <motion.p
             initial={{ opacity: 0, y: -50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
@@ -55,7 +55,7 @@ const JoinOurFramework = () => {
             className="text-center pb-5 font-subtext text-white font-semibold tracking-wider text-l"
           >
             Explore our comprehensive programme offerings designed to nurture your child's growth and development.
-          </motion.p>
+          </motion.p> */}
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-[110px] pt-8 px-8 lg:px-0">
