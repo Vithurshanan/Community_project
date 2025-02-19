@@ -22,7 +22,7 @@ wheels/
 *.egg
 .env
 
-# ML/ChatBot specific
+# # ML/ChatBot specific
 # *.h5
 # *.pkl
 # training_data/
