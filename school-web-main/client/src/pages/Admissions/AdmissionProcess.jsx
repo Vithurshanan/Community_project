@@ -28,7 +28,7 @@ const AdmissionProcess = () => {
           <h2 className="text-2xl">Eligibility : </h2>
           <div className="flex flex-col items-start justify-center gap-3">
             <p>Age criteria for application of admission</p>
-            <table className="w-full border-2 border-secondary rounded-lg">
+            {/* <table className="w-full border-2 border-secondary rounded-lg">
               <thead className="bg-gray-200 border-1 border-secondary">
                 <tr>
                   <th className="border p-2">Admission</th>
@@ -53,7 +53,7 @@ const AdmissionProcess = () => {
                   <td className="border p-2">6 Years</td>
                 </tr>
               </tbody>
-            </table>
+            </table> */}
           </div>
         </div>
       </div>

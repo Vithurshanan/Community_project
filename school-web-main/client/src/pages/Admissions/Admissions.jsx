@@ -42,9 +42,9 @@ const Admissions = () => {
       Currentpage={"Admissions"}
       Currentlink={"admissions"}/>
       <AdmissionProcess />
-      <PaperTear2 />
-      <PayNow />
-      <PaperTear1 />
+      {/* <PaperTear2 /> */}
+      {/* <PayNow /> */}
+      {/* <PaperTear1 /> */}
       <ReasonToChoose />
       <PaperTear2 />
       <RaiseATicket />
