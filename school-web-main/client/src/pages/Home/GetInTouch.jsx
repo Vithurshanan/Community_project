@@ -104,7 +104,7 @@ const GetInTouch = () => {
             scrolling="no"
             marginHeight="0"
             marginWidth="0"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.278936101485!2d76.58416887506405!3d12.229383088021931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf644f7358cc0d%3A0xe4fb32672e467b68!2sMount%20Litera%20Zee%20School!5e0!3m2!1sen!2sin!4v1701524068815!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416.1801771458605!2d80.80209792061036!3d7.080072594176758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae37e04bfffffff%3A0x36554e3060bf0d4!2sMathurata%20Maha%20Vidyalaya!5e0!3m2!1sen!2slk!4v1739818275579!5m2!1sen!2slk"
             allowFullScreen=""
           ></iframe>
         </div>

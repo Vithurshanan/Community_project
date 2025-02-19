@@ -19,10 +19,10 @@ const Houses = () => {
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <div className="max-w-4xl mx-4 px-3 text-center bg-white p-10 rounded-md bg-opacity-70">
             <h1 className="text-2xl md:text-4xl font-bold font-title tracking-wide text-secondary mb-2">
-              Houses at Mysore International School
+              Houses at Mathurata Maha Vidyalaya
             </h1>
             <p className="text-sm md:text-lg max-w-3xl text-secondary font-description pb-6 tracking-wide">
-              At Mysore International School, we believe in nurturing more than just academic excellence. Our mission is to foster holistic growth, leadership, and a sense of community among our students.
+              At Mathurata Maha Vidyalaya, we believe in nurturing more than just academic excellence. Our mission is to foster holistic growth, leadership, and a sense of community among our students.
             </p>
             <a
               href="#houses"
@@ -38,7 +38,7 @@ const Houses = () => {
       <div className="py-8 md:py-16 bg-gray-100" id="houses">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl md:text-3xl font-bold font-title tracking-wide text-secondary mb-10 text-center">
-            Houses at Mysore International School
+            Houses at Mathurata Maha Vidyalaya
           </h2>
           <ul className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <li className="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer">
@@ -110,7 +110,7 @@ const Houses = () => {
           <div className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-600 text-lg mb-10 ">
-            At Mysore International School, we prepare our students not only for academic success but for leadership in life. Unlock your potential, grow as a leader, and embrace the rich diversity of our school community through our Houses System.
+            At Mathurata Maha Vidyalaya, we prepare our students not only for academic success but for leadership in life. Unlock your potential, grow as a leader, and embrace the rich diversity of our school community through our Houses System.
           </p>
           <a
             href="#"

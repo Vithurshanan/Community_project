@@ -24,7 +24,7 @@ const ScienceLab = () => {
             Science Laboratories
             </h1>
             <p className="text-sm md:text-lg max-w-3xl text-secondary font-description pb-6 tracking-wide">
-            The study of science at Mysore International School goes beyond theoretical knowledge; it's about hands-on exploration and discovery. 
+            The study of science at Mathurata Maha Vidyalaya goes beyond theoretical knowledge; it's about hands-on exploration and discovery. 
             </p>
             <a
               href="#features"
@@ -118,7 +118,7 @@ const ScienceLab = () => {
       Our transportation services with tracking facilities are designed to provide the utmost safety and convenience to both students and their families. We understand that trust and peace of mind are essential when it comes to your child's transportation, and our commitment to these values is reflected in our advanced tracking technology.
     </p> */}
     <p className="text-secondary tracking-wider text-lg font-semibold mb-10">
-    Join us at Mysore International School and embark on a scientific journey filled with exploration, experimentation, and discovery. Enroll now and be part of a vibrant learning community that values hands-on learning and scientific inquiry.
+    Join us at Mathurata Maha Vidyalaya and embark on a scientific journey filled with exploration, experimentation, and discovery. Enroll now and be part of a vibrant learning community that values hands-on learning and scientific inquiry.
     </p>
     <a
       href="#"

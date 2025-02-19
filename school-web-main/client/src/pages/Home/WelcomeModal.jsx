@@ -1,13 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react';
 import image1 from "../../assets/Images/HomeImages/WelcomeModal/AdmissionOpen.jpg";
-import image2 from "../../assets/Images/HomeImages/WelcomeModal/flyer_MIS_1.jpg";
-import image3 from "../../assets/Images/HomeImages/WelcomeModal/flyer_MIS_2.jpeg";
-import image4 from "../../assets/Images/HomeImages/WelcomeModal/flyer_MIS_3.jpeg";
+// import image2 from "../../assets/Images/HomeImages/WelcomeModal/flyer_MIS_1.jpg";
+// import image3 from "../../assets/Images/HomeImages/WelcomeModal/flyer_MIS_2.jpeg";
+// import image4 from "../../assets/Images/HomeImages/WelcomeModal/flyer_MIS_3.jpeg";
 
 const WelcomeModal = () => {
   const [showModal, setShowModal] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const images = [image1, image2, image3, image4];
+  // const images = [image1, image2, image3, image4];
+  const images = [image1];
   const modalRef = useRef(null);
 
   useEffect(() => {
