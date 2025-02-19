@@ -48,21 +48,21 @@ const OurPrograms = () => {
   }, []);
 
   const programsData = [
-    {
-      id: 1,
-      imageUrl: PrePrimaryImage,
-      title: "Pre-Primary-school",
-      description: "where curiosity and joy meet in a safe, joyful space.",
-      age: "3-6 years",
-      schedule: " 9:00 AM - 4:00 PM",
-    },
+    // {
+    //   id: 1,
+    //   imageUrl: PrePrimaryImage,
+    //   title: "Pre-Primary-school",
+    //   description: "where curiosity and joy meet in a safe, joyful space.",
+    //   age: "3-6 years",
+    //   schedule: " 9:00 AM - 4:00 PM",
+    // },
     {
       id: 2,
       imageUrl: PrimaryImage,
       title: "Primary-school",
       description: "where curiosity and joy meet in a safe, joyful space.",
       age: "6-11 years",
-      schedule: " 9:00 AM - 4:00 PM",
+      schedule: " 7:30 AM - 12:30 PM",
     },
     {
       id: 3,
@@ -70,7 +70,7 @@ const OurPrograms = () => {
       title: "Middle-school",
       description: "Providing a secure and engaging space for young minds.",
       age: "11-14 years",
-      schedule: " 9:00 AM - 4:00 PM",
+      schedule: " 7:30 AM - 1:30 PM",
     },
     {
       id: 4,
@@ -78,7 +78,7 @@ const OurPrograms = () => {
       title: "High-school",
       description: `Cultivating minds, fostering growth in a secure, dynamic atmosphere.`,
       age: "14-16 years",
-      schedule: " 9:00 AM - 4:00 PM",
+      schedule: " 7:30 AM - 1:30 PM",
     }
   ];
 
@@ -106,12 +106,12 @@ const OurPrograms = () => {
           child thrives in a nurturing environment.
         </motion.p>
         <div className="relative w-full">
-          <button
+          {/* <button
             className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-200 p-2 rounded-l-md z-10"
             onClick={handleScrollLeft}
           >
             &lt;
-          </button>
+          </button> */}
           <div
             ref={cardsRef}
             className="flex gap-8 w-full items-center h-auto overflow-x-hidden scroll-smooth scrollbar-hide"
@@ -157,12 +157,12 @@ const OurPrograms = () => {
               </div>
             ))}
           </div>
-          <button
+          {/* <button
             className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-200 p-2 rounded-r-md z-10"
             onClick={handleScrollRight}
           >
             &gt;
-          </button>
+          </button> */}
         </div>
       </div>
       <SidebarAcademics
