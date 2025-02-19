@@ -55,8 +55,10 @@ const Enroll = () => {
          initial={{ opacity: 0, y: -100 }}
          whileInView={{ opacity: 1, y: 0 }}
          transition={{ duration: 1, delay: 2 }}
-         viewport={{ once: true }}>
-          Welcome to the enrollment gateway of Mysore International School—a
+
+         viewport={{ once: true }} className="text-justify">
+          Welcome to the enrollment gateway of Mathurata Maha Vidyalaya—a
+
           place where educational journeys begin. We are thrilled to embark on
           this exciting adventure with you. Please complete the enrollment form
           below to initiate the enrollment process for your child.
@@ -65,7 +67,7 @@ const Enroll = () => {
          initial={{ opacity: 0, y: -100 }}
          whileInView={{ opacity: 1, y: 0 }}
          transition={{ duration: 1, delay: 2 }}
-         viewport={{ once: true }}>
+         viewport={{ once: true }} className="text-justify">
           If you have any questions or need assistance during the enrollment
           process, our friendly admissions team is here to help. Feel free to
           reach out to us.

@@ -36,14 +36,14 @@ const Academics = () => {
       Currentpage={"Academics"}/>
       <OurPrograms />
       <PaperTear1 />
-      <Testimonials />
+      {/* <Testimonials /> */}
       {/* <Faculty /> */}
-      <PaperTear2 />
-      <PaperTear1 />
+      {/* <PaperTear2 /> */}
+      {/* <PaperTear1 /> */}
       <Timelines />
-      <PaperTear2 />
+      {/* <PaperTear2 /> */}
       {/* <OurVision /> */}
-      <PaperTear1 />
+      {/* <PaperTear1 /> */}
       <AdmissionInfo />
       {/* <Resource /> */}
       <PaperTear2 />

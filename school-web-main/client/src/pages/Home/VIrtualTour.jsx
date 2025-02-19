@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const VirtualTour = () => {
   return (
-    <div className="p-6 text-textSecondary bg-primary space-y-8 md:space-y-0 md:grid grid-cols-2 lg:px-20 lg:py-28 ">
+    <div className="p-6 text-textSecondary bg-primary space-y-8 md:space-y-0 lg:px-20 lg:py-28 ">
       <motion.div
         initial={{ opacity: 0, x: -200 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -12,13 +12,16 @@ const VirtualTour = () => {
         viewport={{ once: true }}
         className="space-y-6 md:space-y-7  col-span-1"
       >
+        <div className="flex flex-col justify-center items-center">
         <div>
-          <h2 className="text-3xl font-semibold md:text-3xl lg:text-5xl">
+          <h2 className="text-3xl font-semibold md:text-3xl lg:text-5xl text-center mb-5 md:mb-9">
             Virtual School Tour
           </h2>
-          <h3 className="text-[15px] md:text-[18px] lg:text-xl font-semibold">
-          Visit the Mysore International School, virtually! Now take a sneak peek inside our
-          campus through our exclusive campus virtual tour.
+
+          <h3 className="text-[15px] md:text-[18px] lg:text-xl font-semibold text-center mb-5">
+          Visit the Mathurata Maha Vidyalaya,<br /> virtually!<br /> Now take a sneak peek inside our
+          School through our exclusive  virtual tour.
+
           </h3>
         </div>
         <p className="text-left md:text-justify">
@@ -36,6 +39,8 @@ const VirtualTour = () => {
             Know More
           </Link>
         </div>
+        </div>
+        
       </motion.div>
       <motion.div
         initial={{ opacity: 0, x: 200 }}

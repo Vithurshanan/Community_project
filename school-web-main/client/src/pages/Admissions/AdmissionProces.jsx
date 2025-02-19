@@ -13,18 +13,18 @@ const AdmissionProces = () => {
           <div className="md:flex">
             <div className="md:w-1/2 bg-secondary text-white py-8 px-6">
               <h3 className="text-2xl font-bold mb-4">1. Filling Application Form</h3>
-              <p className="text-lg">At Our Campus</p>
+              <p className="text-lg">At Our School</p>
             </div>
             <div className="md:w-1/2 bg-gray-100 py-8 px-6">
               <h3 className="text-2xl font-bold mb-4">2. Attend Counselling</h3>
-              <p className="text-lg">At Our Campus</p>
+              <p className="text-lg">At Our School</p>
             </div>
           </div>
           <div className="md:flex">
             <div className="md:w-1/2 bg-gray-100 py-8 px-6">
               <h3 className="text-2xl font-bold mb-4">3. Confirmation of Admission</h3>
               <ul className="list-disc pl-6 text-gray-600">
-                <li className="mb-2">Campus Tour</li>
+                <li className="mb-2">School Tour</li>
                 <li className="mb-2">Online Test</li>
                 <li className="mb-2">Parents & Students Interaction</li>
               </ul>

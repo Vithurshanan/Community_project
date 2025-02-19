@@ -35,12 +35,12 @@ const Home = () => {
       <PaperTear2 />
       <JoinOurFramerwork />
       <PaperTear1 />
-      <JoinCbse />
-      <PaperTear2 />
-      <ReasonToPursue />
-      <PaperTear1 />
+      {/* <JoinCbse /> */}
+      {/* <PaperTear2 /> */}
+      {/* <ReasonToPursue /> */}
+      {/* <PaperTear1 /> */}
       <NewsAndEvents />
-      <Schedule />
+      {/* <Schedule /> */}
       <GetInTouch />
       <PaperTear2 />
       <Footer />

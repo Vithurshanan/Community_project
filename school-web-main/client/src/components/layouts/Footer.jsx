@@ -65,7 +65,7 @@ const Footer = () => {
             <Link
               className="hover:ml-2 transition-all duration-200"
               to={
-                "https://www.google.com/maps/place/Mount+Litera+Zee+School/@12.2293831,76.5867438,17z/data=!3m1!4b1!4m6!3m5!1s0x3baf644f7358cc0d:0xe4fb32672e467b68!8m2!3d12.2293831!4d76.5867438!16s%2Fg%2F1yfh_kjjj?entry=ttu"
+                "https://www.google.com/maps/dir//3RJ2%2B4W8,+Mathurata/@7.0802716,80.7199177,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3ae37e04bfffffff:0x36554e3060bf0d4!2m2!1d80.80232!2d7.0802785?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
               }
             >
               Direction &gt;
@@ -118,22 +118,24 @@ const Footer = () => {
                 )}
               </li>
             ))}
-            <img src={Partner} alt="" className="w-[8rem]"/>
+            {/* <img src={Partner} alt="" className="w-[8rem]"/> */}
           </ul>
         </div>
       </div>
           
       <div className="space-y-2 md:flex items-center justify-between mt-5">
         <p>
-          &copy; Mysore International School 2024 | All rights reserved | Legal Notice.
+
+          &copy; Mathurata Maha Vidyalaya 2025 | All rights reserved | Legal Notice.
+
         </p>
         <p>Developed by <a
-            href="https://webstorlabs.com"
+            href="https://github.com/Vithurshanan/Community_project"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-all duration-200"
           >
-            WebstorLabs
+            WhiteHackz-SUSL
           </a></p>
       </div>
     </div>
