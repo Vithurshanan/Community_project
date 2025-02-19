@@ -125,7 +125,7 @@ const Footer = () => {
           
       <div className="space-y-2 md:flex items-center justify-between mt-5">
         <p>
-          &copy; Mysore International School 2024 | All rights reserved | Legal Notice.
+          &copy; Mathurata Maha Vidyalaya 2024 | All rights reserved | Legal Notice.
         </p>
         <p>Developed by <a
             href="https://github.com/Vithurshanan/Community_project"
