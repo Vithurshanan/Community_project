@@ -125,7 +125,7 @@ const FacilityCard = () => {
         viewport={{ once: true }}
         className="text-start mx-auto max-w-2xl font-sans mb-10 text-[16px] sm:text-[18px] sm:text-center px-4 tracking-wide"
       >
-        Explore our exceptional amenities at Mysore International School, enhancing student life with a modern swimming pool for relaxation and fitness, and a state-of-the-art sports arena for diverse activities.
+        Explore our exceptional amenities at Mathurata Maha Vidyalaya, enhancing student life with a modern swimming pool for relaxation and fitness, and a state-of-the-art sports arena for diverse activities.
       </motion.p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-10 lg:px-[150px]">
         {facilities.map((facility) => (

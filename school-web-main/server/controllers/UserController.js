@@ -18,7 +18,7 @@ exports.Home = (req,res)=>{
     res.status(200).json({
 
         success:true,
-        message:"Welcome to Mysore International School"
+        message:"Welcome to Mathurata Maha Vidyalaya"
 
     })
 
@@ -89,11 +89,11 @@ exports.loginUser = catchAsyncError(async (req, res, next) => {
 
     
     jwtToken("Login successful", 200, user, res);
-    const message = `You have successfully logged in to Mysore International School Website`;
+    const message = `You have successfully logged in to Mathurata Maha Vidyalaya Website`;
     try {
       await sendEmail({
         email: user.email,
-        subject: "Login to Mysore International School Website",
+        subject: "Login to Mathurata Maha Vidyalaya Website",
         message,
       });
   

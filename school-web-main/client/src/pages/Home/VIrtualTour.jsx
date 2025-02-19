@@ -17,20 +17,18 @@ const VirtualTour = () => {
           <h2 className="text-3xl font-semibold md:text-3xl lg:text-5xl text-center mb-5 md:mb-9">
             Virtual School Tour
           </h2>
-
-          <h3 className="text-[15px] md:text-[18px] lg:text-xl font-semibold text-center mb-5">
-          Visit the Mathurata Maha Vidyalaya,<br /> virtually!<br /> Now take a sneak peek inside our
-          School through our exclusive  virtual tour.
-
+          <h3 className="text-[15px] md:text-[18px] lg:text-xl font-semibold">
+          Visit the Mysore International School, virtually! Now take a sneak peek inside our
+          campus through our exclusive campus virtual tour.
           </h3>
         </div>
-        <p className="text-left md:text-justify">
-          Unlock the doors to Mysore International School by scanning the QR
+        {/* <p className="text-left md:text-justify">
+          Unlock the doors to Mathurata Maha Vidyalaya by scanning the QR
           code on the left. Immerse yourself in a virtual stroll around our
           campus, exploring the architecture, surroundings, and the unique charm
           of our school from the outside. Get a sneak peek into the world of
           learning that awaits within.
-        </p>
+        </p> */}
         <div>
           <Link
             to={"/facilities"}
@@ -42,7 +40,7 @@ const VirtualTour = () => {
         </div>
         
       </motion.div>
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, x: 200 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 0.5 }}
@@ -50,7 +48,7 @@ const VirtualTour = () => {
         className=" md:flex items-center justify-end col-span-1 mr-20"
       >
         <img src={scanMe} alt="" className="w-[180px] md:w-[200px]" />
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };

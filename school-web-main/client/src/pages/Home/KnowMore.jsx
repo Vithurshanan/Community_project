@@ -7,7 +7,7 @@ const KnowMore = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center pt-[50px]">
           <h2 className="text-3xl font-extrabold text-secondary sm:text-4xl">
-            Discover Mysore International School
+            Discover Mathurata Maha Vidyalaya
           </h2>
           <p className="mt-3 max-w-2xl mx-auto text-xl text-secondary">
             Explore our vision, mission, and commitment to excellence in
@@ -30,7 +30,7 @@ const KnowMore = () => {
             <div className="px-4 py-5 sm:p-6">
               <h3 className="text-lg font-semibold text-secondary">Our Mission</h3>
               <p className="mt-2 text-base text-secondary">
-                At Mysore International School, our mission embodies a commitment
+                At Mathurata Maha Vidyalaya, our mission embodies a commitment
                 to fostering a dynamic and innovative educational environment.
                 We wholeheartedly embrace the pursuit of excellence as we inspire
                 and challenge every student to attain their utmost potential,

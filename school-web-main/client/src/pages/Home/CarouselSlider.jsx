@@ -12,7 +12,7 @@ const CarouselSlider = () => {
     {
       image: image1,
       title: 'Unveiling Brilliance',
-      description: ' Ignite potential, shape futures. At Mysore International School , we nurture brilliance, empowering confident leaders',
+      description: ' Ignite potential, shape futures. At Mathurata Maha Vidyalaya , we nurture brilliance, empowering confident leaders',
     },
     {
       image: image2,
@@ -22,17 +22,17 @@ const CarouselSlider = () => {
     {
       image: image3,
       title: 'Empower. Excel. Educate',
-      description: 'Ignite imagination, foster innovation. Join Mysore International School to inspire lifelong learners.',
+      description: 'Ignite imagination, foster innovation. Join Mathurata Maha Vidyalaya to inspire lifelong learners.',
     },
     {
       image: image4,
       title: 'Elevating Excellence',
-      description: 'Tradition meets innovation. Join Mysore International School to elevate excellence for tomorrow.',
+      description: 'Tradition meets innovation. Join Mathurata Maha Vidyalaya to elevate excellence for tomorrow.',
     },
     {
       image: image5,
       title: 'Beyond Education',
-      description: 'Holistic education, meaningful lives. Join Mysore International School to nurture heart, mind, and soul.',
+      description: 'Holistic education, meaningful lives. Join Mathurata Maha Vidyalaya to nurture heart, mind, and soul.',
     },
   ];
 
