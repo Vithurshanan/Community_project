@@ -75,7 +75,7 @@ const CBSEProg = () => {
      <section className="mb-12 mt-[2rem] text-center">
       <h2 className="text-3xl font-bold text-secondary font-tile mb-4">CBSE Program Overview</h2>
       <p className="text-lg text-secondary mb-4 px-10">
-        The CBSE curriculum at Mathurata Maha Vidyalaya is designed to provide a comprehensive learning experience across various disciplines.
+        The CBSE curriculum at Mysore International School is designed to provide a comprehensive learning experience across various disciplines.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 p-10 lg:grid-cols-3 gap-6">
         {learningAreas.map((area) => (

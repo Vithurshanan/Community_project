@@ -19,17 +19,17 @@ const Academics = () => {
   return (
     <div className='mt-20 sm:mt-0'>
 <Helmet>
-  <title>Academics | Mathurata Maha Vidyalaya</title>
+  <title>Academics | Mysore International School</title>
   <meta
     name="description"
-    content="Discover the exceptional academic programs at Mathurata Maha Vidyalaya, designed to foster intellectual growth and excellence." />
+    content="Discover the exceptional academic programs at Mysore International School, designed to foster intellectual growth and excellence." />
       <link rel="cannonical" href="/Academics" />
 
 </Helmet>
       <Hero
         text={"Academics"}
         image={image}
-        description={`Welcome to Mathurata Maha Vidyalaya, where academic excellence is at the core of our mission. We are committed to providing students with a rigorous and well-rounded education that prepares them for success in a rapidly changing world. Our dedicated faculty and staff are passionate about nurturing the intellectual growth of every student, fostering critical thinking, creativity, and a love for learning.`}
+        description={`Welcome to Mysore international school, where academic excellence is at the core of our mission. We are committed to providing students with a rigorous and well-rounded education that prepares them for success in a rapidly changing world. Our dedicated faculty and staff are passionate about nurturing the intellectual growth of every student, fostering critical thinking, creativity, and a love for learning.`}
       />
       <BreadCrumb 
       Currentlink={"academics"}

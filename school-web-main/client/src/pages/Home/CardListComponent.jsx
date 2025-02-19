@@ -10,7 +10,7 @@ const CardListComponent = () => {
       link: 'CbseCurriculum',
       imageSrc: image1,
       title: 'Curriculum Overview',
-      description: ' Mathurata M.V. curriculum blends academics, hands-on learning, and innovative teaching.',
+      description: ' MIS curriculum blends academics, hands-on learning, and innovative teaching.',
     },
     {
       id:2,
@@ -24,7 +24,7 @@ const CardListComponent = () => {
       link: 'awards',
       imageSrc: image3,
       title: 'Awards and Achievements',
-      description: 'Mathurata M.V. shines with awards across academics, sports, and activities, commitment to excellence.',
+      description: 'MIS shines with awards across academics, sports, and activities, commitment to excellence.',
     },
   ];
 

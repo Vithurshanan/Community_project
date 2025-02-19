@@ -14,7 +14,7 @@ function Timelines() {
           <Timeline.Time className="font-title text-2xl font-semibold text-secondary tracking-wider">April 2013</Timeline.Time>
           <Timeline.Title>Phase - 01</Timeline.Title>
           <Timeline.Body>
-          The gates of Knowledge of Mathurata Maha Vidyalaya (earlier known as MLZS) was opened to the students. It was an amazing journey of catering  wisdom to students to excel in all walks of life.
+          The gates of Knowledge of Mysore International School (earlier known as MLZS) was opened to the students. It was an amazing journey of catering  wisdom to students to excel in all walks of life.
           </Timeline.Body>
           {/* <Button color="gray">
             Learn More
@@ -48,7 +48,7 @@ function Timelines() {
           <Timeline.Time className="font-title text-2xl font-semibold text-secondary tracking-wider"> 202</Timeline.Time>
           <Timeline.Title >Phase - 04</Timeline.Title>
           <Timeline.Body>
-           We underwent a significant transformation and rebranded our school from Mount Litera Zee School to Mathurata Maha Vidyalaya
+           We underwent a significant transformation and rebranded our school from Mount Litera Zee School to Mysore International School
           </Timeline.Body>
         </Timeline.Content>
       </Timeline.Item>

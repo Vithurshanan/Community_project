@@ -24,7 +24,7 @@ const Security= () => {
             Security Measures 
             </h1>
             <p className="text-sm md:text-lg max-w-3xl lg:px-5 text-secondary font-description pb-6 tracking-wide">
-            At Mathurata Maha Vidyalaya (MIS), the safety and well-being of our students are paramount. We understand that a secure learning environment is essential for fostering personal and academic growth. 
+            At Mysore International School (MIS), the safety and well-being of our students are paramount. We understand that a secure learning environment is essential for fostering personal and academic growth. 
             </p>
             <a
               href="#features"
@@ -54,7 +54,7 @@ const Security= () => {
                 A Home Away from Home
                 </h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                Mathurata Maha Vidyalaya is more than just an educational institution; it's a second home for our students. Our Safety and Security Department is dedicated to cultivating an atmosphere of trust and enhancing the quality of life within our diverse educational community. 
+                Mysore International School is more than just an educational institution; it's a second home for our students. Our Safety and Security Department is dedicated to cultivating an atmosphere of trust and enhancing the quality of life within our diverse educational community. 
                 </p>
               </div>
             </li>
@@ -113,7 +113,7 @@ const Security= () => {
   <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     
     <p className="text-gray-600 text-lg mb-10 ">
-    Join us at Mathurata Maha Vidyalaya, where student safety is our top priority. Enroll now and experience a learning environment that prioritizes security, trust, and well-being.
+    Join us at Mysore International School, where student safety is our top priority. Enroll now and experience a learning environment that prioritizes security, trust, and well-being.
     </p>
     <a
       href="#"

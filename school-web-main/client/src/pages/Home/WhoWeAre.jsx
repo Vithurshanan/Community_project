@@ -27,12 +27,12 @@ const WhoWeAre = () => {
             Who We Are?
           </h1>
           <h2 className="text-[15px] md:text-[17px] lg:text-xl  font-semibold text-left md:text-justify">
-            At Mathurata Maha Vidyalaya, we are a vibrant community dedicated
+            At Mysore International School, we are a vibrant community dedicated
             to fostering academic excellence and holistic development.
           </h2>
         </div>
         <p className="text-left md:text-justify">
-          At the heart of Mathurata Maha Vidyalaya is a belief in the
+          At the heart of Mysore International School is a belief in the
           transformative power of education. Our approach is unique, focusing
           not only on imparting knowledge but also on nurturing essential life
           skills. We are a close-knit community that values collaboration,

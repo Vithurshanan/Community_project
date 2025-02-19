@@ -24,7 +24,7 @@ const Music = () => {
             Music Program
             </h1>
             <p className="text-sm md:text-lg max-w-3xl text-secondary font-description pb-6 tracking-wide">
-            The music program at Mathurata Maha Vidyalaya is designed to ignite a passion for music, nurture artistic talents, and cultivate a deep appreciation for musical expression among our students. 
+            The music program at Mysore International School is designed to ignite a passion for music, nurture artistic talents, and cultivate a deep appreciation for musical expression among our students. 
             </p>
             <a
               href="#features"
@@ -118,7 +118,7 @@ const Music = () => {
       Our transportation services with tracking facilities are designed to provide the utmost safety and convenience to both students and their families. We understand that trust and peace of mind are essential when it comes to your child's transportation, and our commitment to these values is reflected in our advanced tracking technology.
     </p> */}
     <p className="text-secondary tracking-wider text-lg font-semibold mb-10">
-    Join us at Mathurata Maha Vidyalaya and discover the joy of music, creativity, and artistic expression. Experience the power of music in shaping minds, touching hearts, and creating unforgettable memories.
+    Join us at Mysore International School and discover the joy of music, creativity, and artistic expression. Experience the power of music in shaping minds, touching hearts, and creating unforgettable memories.
     </p>
     <a
       href="#"

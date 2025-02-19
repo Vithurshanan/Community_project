@@ -24,7 +24,7 @@ const Sports = () => {
             Sports Activity 
             </h1>
             <p className="text-sm md:text-lg max-w-3xl text-secondary font-description pb-6 tracking-wide">
-            Mathurata Maha Vidyalaya offers state-of-the-art sports facilities to support students' physical fitness and athletic development.
+            Mysore International School offers state-of-the-art sports facilities to support students' physical fitness and athletic development.
             </p>
             <a
               href="#features"

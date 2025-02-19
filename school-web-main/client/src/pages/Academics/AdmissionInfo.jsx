@@ -3,13 +3,13 @@ import { Accordion } from "flowbite-react";
 const AdmissionInfo = () => {
   const schoolFAQ = [
     {
-      question: "How do I apply for admission to Mathurata Maha Vidyalaya?",
+      question: "How do I apply for admission to Mysore International School?",
       answer:
-        "To apply for admission to Mathurata Maha Vidyalaya, please visit our Admissions page and follow the step-by-step application process outlined there. You'll find all the necessary forms and instructions to get started.",
+        "To apply for admission to Mysore International School, please visit our Admissions page and follow the step-by-step application process outlined there. You'll find all the necessary forms and instructions to get started.",
     },
     {
       question:
-        "What are the admission requirements for Mathurata Maha Vidyalaya?",
+        "What are the admission requirements for Mysore International School?",
       answer:
         "Admission requirements may vary depending on the grade level and program you're interested in. Typically, we consider factors such as academic performance, standardized test scores, recommendations, and an admissions interview. Specific requirements can be found on our Admissions Requirements page.",
     },
@@ -20,12 +20,12 @@ const AdmissionInfo = () => {
     },
     {
       question:
-        "Are there any entrance exams for admission to Mathurata Maha Vidyalaya?",
+        "Are there any entrance exams for admission to Mysore International School?",
       answer:
         "Yes, some programs and grade levels may require standardized entrance exams. Details about required exams and their formats can be found on our Entrance Exams page.",
     },
     {
-      question: "What is the tuition fee for Mathurata Maha Vidyalaya?",
+      question: "What is the tuition fee for Mysore International School?",
       answer:
         "Tuition fees vary depending on the grade level and program. Our Tuition and Fees page provides a detailed breakdown of tuition costs, fees, and any available financial aid or scholarships.",
     },
@@ -36,27 +36,27 @@ const AdmissionInfo = () => {
     },
     {
       question:
-        "Can I schedule a tour or visit Mathurata Maha Vidyalaya before applying for admission?",
+        "Can I schedule a tour or visit Mysore International School before applying for admission?",
       answer:
         "Absolutely! We encourage prospective parents and students to visit our campus and take a tour. Visit our Campus Tours and Visits page to schedule a tour and learn about upcoming open house events.",
     },
     {
       question:
-        "How can I check the status of my child's application to Mathurata Maha Vidyalaya?",
+        "How can I check the status of my child's application to Mysore International School?",
       answer:
         "You can track the status of your child's application through our online application portal. Once you've submitted the application, you'll receive login information to access your application status.",
     },
     {
       question:
-        "What is the enrollment process after admission is offered at Mathurata Maha Vidyalaya?",
+        "What is the enrollment process after admission is offered at Mysore International School?",
       answer:
         "After admission is offered, we will provide detailed instructions on the enrollment process, including deadlines for accepting the offer, submitting required documents, and paying the enrollment deposit. You can find more information on our Enrollment Procedures page.",
     },
     {
       question:
-        "Is transportation available for students who live outside the immediate area of Mathurata Maha Vidyalaya?",
+        "Is transportation available for students who live outside the immediate area of Mysore International School?",
       answer:
-        "Yes, we offer transportation services for students who live outside the immediate vicinity of Mathurata Maha Vidyalaya. Details on transportation routes, schedules, and fees can be found on our Transportation Services page.",
+        "Yes, we offer transportation services for students who live outside the immediate vicinity of Mysore International School. Details on transportation routes, schedules, and fees can be found on our Transportation Services page.",
     },
   ];
 
