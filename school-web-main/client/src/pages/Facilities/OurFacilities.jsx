@@ -40,12 +40,12 @@ const OurFacilities = () => {
       <h2 className=" md:text-center lg:text-4xl font-semibold text-white  text-2xl sm:text-3xl font-title">
         FACILITIES   </h2>
       <p className=" text-white md:text-center w-[80%] font-sans md:text-md lg:text-[16px] tracking-wider">
-        Welcome to Mysore International School's state-of-the-art facilities
+        Welcome to Mathurata Maha Vidyalaya's state-of-the-art facilities
         designed to enhance the learning experience and provide a safe,
         nurturing environment for our students. Our commitment to excellence
         extends beyond the classroom, and our facilities reflect that
         dedication. Explore our campus and discover the resources that make
-        Mysore International School a unique place of learning.{" "}
+        Mathurata Maha Vidyalaya a unique place of learning.{" "}
       </p>
       <div className="w-[70%] h-[90%]  self-center object-cover my-10">
         <Slider slides={slides} />

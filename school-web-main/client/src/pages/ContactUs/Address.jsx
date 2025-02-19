@@ -14,11 +14,11 @@ const Address = () => {
       <div className="md:grid space-y-12 md:space-y-0 grid-cols-2 w-[90%] mx-auto mt-8 text-textSecondary tracking-wide shadow-lg  shadow-secondary pb-8 pt-4 rounded-lg bg-white">
         <div className="space-y-4 px-2 md:px-10 md:py-10">
           <h2 className="text-3xl md:text-4xl text-textSecondary font-semibold font-title">
-            Mysore International School
+            Mathurata Maha Vidyalaya
           </h2>
           <div className="font-semibold">
             <p className="lg:text-justify font-description">
-              Mysore International School 92/1-3, HD Kote Road, Rayanakere Post, 5 Minutes from Srirampura Ring Road, Mysore – 570008.
+              Mathurata Maha Vidyalaya 92/1-3, HD Kote Road, Rayanakere Post, 5 Minutes from Srirampura Ring Road, Mysore – 570008.
             </p>
             <Link
               className="hover:ml-2 transition-all duration-200"

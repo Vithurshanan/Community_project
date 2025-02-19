@@ -118,7 +118,7 @@ const ComputerPage = () => {
       Our transportation services with tracking facilities are designed to provide the utmost safety and convenience to both students and their families. We understand that trust and peace of mind are essential when it comes to your child's transportation, and our commitment to these values is reflected in our advanced tracking technology.
     </p> */}
     <p className="text-secondary tracking-wider text-lg font-semibold mb-10">
-    Join us in providing your child with a safe and enriching learning experience in our state-of-the-art computer lab at Mysore International School.
+    Join us in providing your child with a safe and enriching learning experience in our state-of-the-art computer lab at Mathurata Maha Vidyalaya.
     </p>
     <a
       href="#"

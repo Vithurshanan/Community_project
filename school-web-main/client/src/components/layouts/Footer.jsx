@@ -60,7 +60,7 @@ const Footer = () => {
         <div className="space-y-4">
           <div className="">
             <p className="lg:text-justify">
-              Mysore International School # 92/1-5, HD Kote Road, Rayanakere Post, SH 33, Karnataka 570008
+              Mathurata Maha Vidyalaya # 92/1-5, HD Kote Road, Rayanakere Post, SH 33, Karnataka 570008
             </p>
             <Link
               className="hover:ml-2 transition-all duration-200"
@@ -125,9 +125,7 @@ const Footer = () => {
           
       <div className="space-y-2 md:flex items-center justify-between mt-5">
         <p>
-
-          &copy; Mathurata Maha Vidyalaya 2025 | All rights reserved | Legal Notice.
-
+          &copy; Mathurata Maha Vidyalaya 2024 | All rights reserved | Legal Notice.
         </p>
         <p>Developed by <a
             href="https://github.com/Vithurshanan/Community_project"
