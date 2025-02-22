@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import image1 from "../../assets/Images/FacilitiesImages/Amenities/transport.jpg";
+import image1 from "../../assets/Images/FacilitiesImages/Amenities/dancing.jpg";
 import image2 from "../../assets/Images/FacilitiesImages/Amenities/New/Library.jpg";
 import image3 from "../../assets/Images/FacilitiesImages/Amenities/SportsGround.jpg";
 import image4 from "../../assets/Images/FacilitiesImages/Amenities/New/Chemistry.jpg";
@@ -18,9 +18,9 @@ const FacilityCard = () => {
   const facilities = [
     {
       id: 1,
-      title: 'Transport',
+      title: 'Dance',
       image: image1,
-      description: 'Experience comfortable and secure transportation services for our students.',
+      description: 'Unleash your dancing talents and creativity in our dedicated talents.',
       link: '/TransportPage',
     },
     {
@@ -44,15 +44,15 @@ const FacilityCard = () => {
       description: 'Experience interactive learning and a conducive environment in our classrooms.',
       link: '/Classroom',
     },
-    {
-      id: 11,
-      title: 'Houses',
-      image: image5,
+    // {
+    //   id: 11,
+    //   title: 'Houses',
+    //   image: image5,
 
-      description: 'Promote healthy competition to learn and dream big',
+    //   description: 'Promote healthy competition to learn and dream big',
 
-      link: '/Houses',
-    },
+    //   link: '/Houses',
+    // },
     {
       id: 5,
       title: 'Science Laboratory',
@@ -125,7 +125,7 @@ const FacilityCard = () => {
         viewport={{ once: true }}
         className="text-start mx-auto max-w-2xl font-sans mb-10 text-[16px] sm:text-[18px] sm:text-center px-4 tracking-wide"
       >
-        Explore our exceptional amenities at Mathurata Maha Vidyalaya, enhancing student life with a modern swimming pool for relaxation and fitness, and a state-of-the-art sports arena for diverse activities.
+        Explore our exceptional amenities at Mathurata Maha Vidyalaya, enhancing student life with relaxation and fitness, and a state-of-the-art sports for diverse activities.
       </motion.p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-10 lg:px-[150px]">
         {facilities.map((facility) => (
@@ -135,14 +135,14 @@ const FacilityCard = () => {
           >
             <div className="relative">
               <img src={facility.image} alt={facility.title} className="w-full h-48 object-fill" />
-              <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300">
+              {/* <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300">
                 <Link
                   to={facility.link || '#'}
                   className="text-white font-semibold py-2 px-4 rounded-md bg-secondary hover:bg-ctcPrimaryLight transition duration-300"
                 >
                   Know More
                 </Link>
-              </div>
+              </div> */}
             </div>
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">{facility.title}</h3>

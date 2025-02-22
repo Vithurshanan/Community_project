@@ -44,7 +44,7 @@ const OurFacilities = () => {
         designed to enhance the learning experience and provide a safe,
         nurturing environment for our students. Our commitment to excellence
         extends beyond the classroom, and our facilities reflect that
-        dedication. Explore our campus and discover the resources that make
+        dedication. Explore our School and discover the resources that make
         Mathurata Maha Vidyalaya a unique place of learning.{" "}
       </p>
       <div className="w-[70%] h-[90%]  self-center object-cover my-10">

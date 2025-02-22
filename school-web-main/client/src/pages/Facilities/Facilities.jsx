@@ -30,8 +30,8 @@ const Facilities = () => {
         Currentlink={"facilities"}
         Currentpage={"Facilities"}
       />
-      <OurFacilities />
-      <PaperTear1 />
+      {/* <OurFacilities /> */}
+      {/* <PaperTear1 /> */}
       <FacilityCard />
       <PaperTear2 />
       <Footer />

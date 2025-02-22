@@ -67,10 +67,10 @@ const Security= () => {
               <div className="p-4 md:p-6">
                 
                 <h3 className="text-lg md:text-xl font-bold text-secondary mb-2">
-                Vast and Secure Campus
+                Vast and Secure School
                 </h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                Our expansive campus provides students with ample space to learn, grow, and explore safely. We have implemented multi-level security protocols to ensure that students can enjoy the campus without concerns about their safety
+                Our expansive School provides students with ample space to learn, grow, and explore safely. We have implemented multi-level security protocols to ensure that students can enjoy the School without concerns about their safety
                 </p>
               </div>
             </li>
@@ -100,7 +100,7 @@ const Security= () => {
                 CCTV Surveillance
                 </h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                Our campuses are equipped with state-of-the-art CCTV cameras strategically placed to monitor and record activities across the campus. These cameras play a crucial role in maintaining a secure environment by deterring incidents of crime and bullying, as well as providing valuable evidence in case of any untoward incidents.
+                Our Schooles are equipped with state-of-the-art CCTV cameras strategically placed to monitor and record activities across the School. These cameras play a crucial role in maintaining a secure environment by deterring incidents of crime and bullying, as well as providing valuable evidence in case of any untoward incidents.
                 </p>
               </div>
             </li>

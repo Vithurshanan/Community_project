@@ -33,7 +33,7 @@ const testimonials = [
   {
     id: 5,
     name: 'Sunil Rao',
-    quote: 'Fantastic School, Great Campus, Great Teachers ..... We are extremely happy.',
+    quote: 'Fantastic School, Great School, Great Teachers ..... We are extremely happy.',
     company: 'Company C',
     image: 'https://via.placeholder.com/150',
   },

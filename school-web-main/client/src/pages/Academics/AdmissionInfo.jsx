@@ -38,7 +38,7 @@ const AdmissionInfo = () => {
       question:
         "Can I schedule a tour or visit Mathurata Maha Vidyalaya before applying for admission?",
       answer:
-        "Absolutely! We encourage prospective parents and students to visit our campus and take a tour. Visit our Campus Tours and Visits page to schedule a tour and learn about upcoming open house events.",
+        "Absolutely! We encourage prospective parents and students to visit our School and take a tour. Visit our School Tours and Visits page to schedule a tour and learn about upcoming open house events.",
     },
     {
       question:
