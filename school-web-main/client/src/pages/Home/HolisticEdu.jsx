@@ -193,7 +193,7 @@ const SportsAndHolisticGrowth = () => {
       </div>
 
       {/* Download Section */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 pb-10">
+      {/* <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 pb-10">
         <div className="flex justify-center items-center">
           <p className="text-lg font-semibold text-secondary mr-4">
             To know more about our sports facilities and programs, download our brochure:
@@ -205,7 +205,7 @@ const SportsAndHolisticGrowth = () => {
             Download
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

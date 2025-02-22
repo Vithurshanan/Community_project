@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaInstagram, FaFacebook } from 'react-icons/fa';
 import FacultyCard from '../../components/layouts/Cards/FacultyCard';
-import fac1 from '../../assets/Images/OutTeamImages/PrincipalImage.jpeg';
+import fac1 from '../../assets/Images/OutTeamImages/PrincipalImage.jpg';
 import chairman from '../../assets/Images/AcademicsImages/FacultyImages/chairman.jpg';
 import trustee from '../../assets/Images/AcademicsImages/FacultyImages/trustee.jpg';
 
@@ -29,31 +29,31 @@ const OurManagementPeople = () => {
     //     /* Add more social media objects here if needed */
     //   ],
     // },
+    // {
+    //   name: "Helena Joseph",
+    //   designation: "Trustee/Secretary",
+    //   education: "",
+    //   img: trustee,
+    //   quote:
+    //     "Education is not learning of facts but training of the mind to think",
+    //   contact: "rohith@test.com",
+    //   socialMedia: [
+    //     {
+    //       platform: "Instagram",
+    //       link: "https://www.instagram.com/mlzs_mysore/",
+    //       icon: <FaInstagram className="text-4xl hover:cursor-pointer hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 transition-all duration-300 hover:scale-110 hover:text-white p-2 rounded-md instagram-icon" />,
+    //     },
+    //     {
+    //       platform: "Facebook",
+    //       link: "https://www.facebook.com/mlzsmys/",
+    //       icon: <FaFacebook className="text-4xl hover:cursor-pointer hover:bg-blue-500 transition-all duration-300 hover:scale-110 hover:text-white p-2 rounded-md" />,
+    //     },
+    //     /* Add more social media objects here if needed */
+    //   ],
+    // },
     {
-      name: "Helena Joseph",
-      designation: "Trustee/Secretary",
-      education: "",
-      img: trustee,
-      quote:
-        "Education is not learning of facts but training of the mind to think",
-      contact: "rohith@test.com",
-      socialMedia: [
-        {
-          platform: "Instagram",
-          link: "https://www.instagram.com/mlzs_mysore/",
-          icon: <FaInstagram className="text-4xl hover:cursor-pointer hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 transition-all duration-300 hover:scale-110 hover:text-white p-2 rounded-md instagram-icon" />,
-        },
-        {
-          platform: "Facebook",
-          link: "https://www.facebook.com/mlzsmys/",
-          icon: <FaFacebook className="text-4xl hover:cursor-pointer hover:bg-blue-500 transition-all duration-300 hover:scale-110 hover:text-white p-2 rounded-md" />,
-        },
-        /* Add more social media objects here if needed */
-      ],
-    },
-    {
-      name: "Dr. PREETHI VINCENT",
-      designation: "Principal",
+      name: "Mr. S.P.S. Karunarathna",
+      designation: "Vice-Principal",
       education: " M.A, B.Ed, M.Phil, Ph.D",
       img: fac1,
       quote:

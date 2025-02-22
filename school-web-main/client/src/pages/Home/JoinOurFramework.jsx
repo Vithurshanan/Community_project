@@ -10,7 +10,7 @@ const programmeData = [
     id: 1,
     imageSrc: EarlyYearsImage,
     alt: "Early Years Image",
-    title: "Early Years",
+    title: "Primary Level",
     link: "./EarlyProgram",
     buttonText: "The Early Years Programme"
   },
@@ -18,7 +18,7 @@ const programmeData = [
     id: 2,
     imageSrc: PYPImage,
     alt: "CBSE Image",
-    title: "CBSE",
+    title: "Advanced Level",
     link: "./CBSEProg",
     buttonText: "The CBSE Programme"
   }

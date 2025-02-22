@@ -18,11 +18,11 @@ const Address = () => {
           </h2>
           <div className="font-semibold">
             <p className="lg:text-justify font-description">
-              Mathurata Maha Vidyalaya 92/1-3, HD Kote Road, Rayanakere Post, 5 Minutes from Srirampura Ring Road, Mysore – 570008.
+            CP/HK/Mathurata Maha Vidyalaya, Mathurata, Mathurata, Nuwara-Eliya. – 22200.
             </p>
             <Link
               className="hover:ml-2 transition-all duration-200"
-              to={"https://www.google.com/maps/place/Mount+Litera+Zee+School/@12.2293831,76.5867438,17z/data=!3m1!4b1!4m6!3m5!1s0x3baf644f7358cc0d:0xe4fb32672e467b68!8m2!3d12.2293831!4d76.5867438!16s%2Fg%2F1yfh_kjjj?entry=ttu"}
+              to={"https://maps.app.goo.gl/YRBfLinMLsxfaQB68"}
             >
               Direction &gt;
             </Link>
@@ -40,28 +40,28 @@ const Address = () => {
               Admission Officer E-mail address :
               <br />
               <span
-                onClick={() => handleEmailClick('admissions@mysoreinternationalschool.com')}
+                onClick={() => handleEmailClick('admissions@mathuratamv.com')}
                 className="font-normal break-words text-sm md:text-lg tracking-wide cursor-pointer"
               >
-                admissions@mysoreinternationalschool.com
+                admissions@mathuratamv.com
               </span>
             </h4>
             <h4 className="font-semibold">
               Admission Officer Mobile No :
               <br />
-              <a href="tel:918884300400" className="font-normal break-words text-sm md:text-lg">
-                +91 8884 300 400
+              <a href="tel:+94117656685" className="font-normal break-words text-sm md:text-lg">
+              +94117656685
               </a>{' '}
               /{' '}
-              <a href="tel:918277237785" className="font-normal break-words text-sm md:text-lg">
-                +91 8277 237 785
+              <a href="tel:0717686685" className="font-normal break-words text-sm md:text-lg">
+                +94717686685
               </a>
             </h4>
             <h4 className="font-semibold">
               Accountant's Name :
               <br />
               <span className="font-normal break-words text-sm md:text-lg tracking-wider">
-                Mrs. Parameswari 
+                Mrs. Sureka De Silva
               </span>
             </h4>
             <h4 className="font-semibold">
@@ -78,12 +78,12 @@ const Address = () => {
             <h4 className="font-semibold">
               Telephone Number :
               <br />
-              <a href="tel:08212971010" className="font-normal break-words text-sm md:text-lg">
-                0821 2971010
+              <a href="tel:+94717686685" className="font-normal break-words text-sm md:text-lg">
+                +94717686685
               </a>{' '}
               /{' '}
-              <a href="tel:8884414356" className="font-normal break-words text-sm md:text-lg">
-                8884 414 356
+              <a href="tel:+94717686685" className="font-normal break-words text-sm md:text-lg">
+              +94717686685
               </a>
             </h4>
             
@@ -100,9 +100,10 @@ const Address = () => {
             scrolling="no"
             marginHeight="0"
             marginWidth="0"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.278936101485!2d76.58416887506405!3d12.229383088021931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf644f7358cc0d%3A0xe4fb32672e467b68!2sMount%20Litera%20Zee%20School!5e0!3m2!1sen!2sin!4v1701524068815!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1979.6968274902827!2d80.80006700009109!3d7.080278497810849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae37e04bfffffff%3A0x36554e3060bf0d4!2sMathurata%20Maha%20Vidyalaya!5e0!3m2!1sen!2slk!4v1740202759888!5m2!1sen!2slk"
             allowFullScreen=""
           ></iframe>
+          
         </div>
       </div>
     </>

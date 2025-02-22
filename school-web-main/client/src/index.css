@@ -87,23 +87,23 @@ html {
 
 .pencil__body1 {
   animation-name: pencilBody1;
-  stroke: #580B57; /* Pencil color */
+  stroke: #611706; /* Pencil color */
 }
 
 .pencil__body2 {
   animation-name: pencilBody2;
-  stroke: #580B57; /* Pencil color */
+  stroke: #611706; /* Pencil color */
 }
 
 .pencil__body3 {
   animation-name: pencilBody3;
-  stroke: #580B57; /* Pencil color */
+  stroke: #611706; /* Pencil color */
 }
 
 .pencil__eraser {
   animation-name: pencilEraser;
   transform: rotate(-90deg) translate(49px,0);
-  fill: #580B57; /* Eraser color */
+  fill: #611706; /* Eraser color */
 }
 
 .pencil__eraser-skew {

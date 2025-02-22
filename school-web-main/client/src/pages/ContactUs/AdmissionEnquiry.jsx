@@ -116,7 +116,7 @@ const AdmissionEnquiry = () => {
                   value={selectedClass}
                 >
                   <option value="">Select Class</option>
-                  <option value="kindergarten">Kindergarten</option>
+                  {/* <option value="kindergarten">Kindergarten</option> */}
                   <option value="primary">Primary School</option>
                   <option value="middleschool">Middle School</option>
                   <option value="highschool">High School</option>

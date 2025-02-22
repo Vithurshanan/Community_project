@@ -42,7 +42,7 @@ const OurTeam = () => {
         />
         <BreadCrumb Currentlink={"our-team"} Currentpage={"Our Team"} />
         <OurTeamDes />
-        <Achievements />
+        {/* <Achievements /> */}
         <PaperTear2 />
         <Chairman />
         <PaperTear1 />
@@ -51,11 +51,11 @@ const OurTeam = () => {
         <PrincipalMessage />
         <SecretaryMessage />
         <PaperTear1 />
-        <TeamCarousel />
+        {/* <TeamCarousel /> */}
         {/* <HOD /> */}
         {/* <SupportTeam /> */}
         {/* <Coordinators /> */}
-        <OurValues />
+        {/* <OurValues /> */}
         <JoinOurTeam />
         <PaperTear2 />
         <Footer />

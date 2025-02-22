@@ -17,15 +17,15 @@ const VirtualTour = () => {
           <h2 className="text-3xl font-semibold md:text-3xl lg:text-5xl text-center mb-5 md:mb-9">
             Virtual School Tour
           </h2>
-          <h3 className="text-[15px] md:text-[18px] lg:text-xl font-semibold">
-          Visit the Mathurata Maha Vidyalaya, virtually! Now take a sneak peek inside our
+          <h3 className="text-[15px] md:text-[18px] lg:text-xl font-semibold text-center mb-5">
+          Visit the Mathurata Maha Vidyalaya,<br /> virtually!<br /> Now take a sneak peek inside our
           School through our exclusive  virtual tour.
           </h3>
         </div>
         {/* <p className="text-left md:text-justify">
           Unlock the doors to Mathurata Maha Vidyalaya by scanning the QR
           code on the left. Immerse yourself in a virtual stroll around our
-          campus, exploring the architecture, surroundings, and the unique charm
+          School, exploring the architecture, surroundings, and the unique charm
           of our school from the outside. Get a sneak peek into the world of
           learning that awaits within.
         </p> */}
