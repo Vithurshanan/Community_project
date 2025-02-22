@@ -17,8 +17,8 @@ const VirtualTour = () => {
           <h2 className="text-3xl font-semibold md:text-3xl lg:text-5xl text-center mb-5 md:mb-9">
             Virtual School Tour
           </h2>
-          <h3 className="text-[15px] md:text-[18px] lg:text-xl font-semibold">
-          Visit the Mathurata Maha Vidyalaya, virtually! Now take a sneak peek inside our
+          <h3 className="text-[15px] md:text-[18px] lg:text-xl font-semibold text-center mb-5">
+          Visit the Mathurata Maha Vidyalaya,<br /> virtually!<br /> Now take a sneak peek inside our
           School through our exclusive  virtual tour.
           </h3>
         </div>

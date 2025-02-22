@@ -14,9 +14,9 @@ const JoinOurFrameWorkCard = ({motion,programme,index,Link}) => {
       </div>
       <div className="flex flex-col justify-center bg-white items-center gap-y-4 p-4">
         <span className="font-title text-3xl font-bold tracking-wider text-secondary">{programme.title}</span>
-        <Link to={programme.link} className="btn-primary">
+        {/* <Link to={programme.link} className="btn-primary">
           <h3 className="font-subtext font-bold tracking-wider text-xl text-white bg-secondary py-2 px-4 rounded-md">{programme.buttonText}</h3>
-        </Link>
+        </Link> */}
       </div>
     </motion.div>
   )

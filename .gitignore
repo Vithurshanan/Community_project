@@ -133,3 +133,7 @@ server/config/config.env
 
 # Local Netlify folder
 .netlify
+
+#assets files
+Assets/Files/
+
